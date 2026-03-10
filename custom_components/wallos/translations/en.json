@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Wallos",
+        "description": "Enter your Wallos server details.\n\n{url_hint}",
+        "data": {
+          "url": "Server URL",
+          "api_key": "API Key"
+        },
+        "data_description": {
+          "url": "The URL of your Wallos instance (e.g., http://d4932a7c-wallos:8282 for the add-on)",
+          "api_key": "Your Wallos API key from Settings"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Wallos",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "Wallos is already configured"
+    }
+  }
+}
