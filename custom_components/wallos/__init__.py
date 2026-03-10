@@ -1,3 +1,5 @@
+import logging
+
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 
@@ -5,11 +7,9 @@ from .const import DOMAIN
 from .coordinator import WallosCoordinator
 from .wallos_api import WallosAPI
 
-PLATFORMS = ["sensor", "calendar"]
+PLATFORMS = ["sensor"]
 
 _LOGGER = logging.getLogger(__name__)
-
-_LOGGER.debug("[wallos] Module loaded")
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):

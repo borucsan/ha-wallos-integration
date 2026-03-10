@@ -1,10 +1,10 @@
 {
-    "domain": "wallos",
-    "name": "Wallos",
-    "version": "1.0.0",
-    "documentation": "https://github.com/borucsan/ha-wallos-integration",
-    "config_flow": true,
-    "iot_class": "cloud_polling",
-    "requirements": [],
-    "codeowners": ["@borucsan"]
-  }
+  "domain": "wallos",
+  "name": "Wallos",
+  "version": "0.1.0",
+  "documentation": "https://github.com/borucsan/ha-wallos-integration",
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "codeowners": ["@borucsan"]
+}

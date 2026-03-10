@@ -1,3 +1,4 @@
+import logging
 from datetime import timedelta
 
 from homeassistant.helpers.update_coordinator import (
@@ -6,10 +7,8 @@ from homeassistant.helpers.update_coordinator import (
 )
 
 from .const import DEFAULT_SCAN_INTERVAL
+
 _LOGGER = logging.getLogger(__name__)
-
-
-_LOGGER.debug("[wallos] Module loaded")
 
 
 class WallosCoordinator(DataUpdateCoordinator):

@@ -12,10 +12,8 @@ async def async_setup_entry(hass, entry, async_add_entities):
         WallosMonthlyCost(coordinator),
     ]
 
-    for sub in coordinator.data:
-        entities.append(WallosSubscriptionSensor(coordinator, sub))
-
     async_add_entities(entities)
+
 
 class WallosMonthlyCost(WallosEntity, SensorEntity):
 
