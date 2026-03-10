@@ -17,7 +17,7 @@ class WallosCoordinator(DataUpdateCoordinator):
 
         super().__init__(
             hass,
-            logger=hass.logger,
+            _LOGGER,
             name="wallos",
             update_interval=timedelta(seconds=DEFAULT_SCAN_INTERVAL),
         )
