@@ -25,6 +25,6 @@ class WallosConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             step_id="user",
             data_schema=schema,
             description_placeholders={
-                "url_hint": "For Wallos add-on from https://github.com/borucsan/ha-addons use: http://d4932a7c-wallos:8282"
+                "url_hint": "For Wallos add-on from https://github.com/borucsan/ha-addons use: http://63015830_wallos:80"
             },
         )
